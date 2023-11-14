@@ -39,7 +39,11 @@ final class MealDetailViewModel: ObservableObject {
         }
     }
     
-    // Fetches the meal details from the meal repository for the specified ID.
+    /**
+     Fetches the meal details from the meal repository for the specified ID.
+     - Parameters:
+     - meal: The meal object used for fetching meal data.
+     */
     private func fetchDetails(for meal: Meal) {
         self.isLoading = true
         mealRepository.fetchMealDetails(for: meal.id) { result in

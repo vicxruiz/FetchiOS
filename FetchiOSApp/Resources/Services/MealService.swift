@@ -30,7 +30,8 @@ final class MealService: MealRepository {
     ///
     /// - Parameters:
     ///   - category: The category of the meal.
-    ///   - completion: The completion block that returns the result of the meal data fetch.
+    /// - Returns:
+    ///   - result: Meal response or Error
     func fetchMeal(for category: MealCategory) async throws -> Result<MealResponse, Error> {
         let urlString = "\(baseUrl)/filter.php?c=\(category.rawValue)"
 

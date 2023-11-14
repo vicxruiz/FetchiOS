@@ -31,7 +31,7 @@ struct MealDetailView: View {
             }
             .alert(isPresented: $viewModel.showError) {
                 Alert(
-                    title: Text("Failed to fetch details"),
+                    title: Text(Strings.Alert.failedData),
                     message: Text(viewModel.errorMessage ?? ""),
                     dismissButton: .default(Text("OK"))
                 )
@@ -67,7 +67,7 @@ struct MealDetailInfoView: View {
     
     private var instructionsView: some View {
         VStack(alignment: .leading, spacing: Layout.pd50) {
-            Text("Instructions")
+            Text(Strings.MealDetail.instructions)
                 .fontWeight(.bold)
             Text(meal.strInstructions)
                 .foregroundColor(Color(uiColor: UIColor.darkGray))
@@ -76,7 +76,7 @@ struct MealDetailInfoView: View {
     
     private var ingredientsView: some View {
         VStack(alignment: .leading, spacing: Layout.pd50) {
-            Text("Ingredients")
+            Text(Strings.MealDetail.ingredients)
                 .fontWeight(.bold)
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: Layout.pd50) {

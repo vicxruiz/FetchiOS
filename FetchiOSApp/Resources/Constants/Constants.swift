@@ -17,6 +17,15 @@ struct Strings {
         static let meal = "Meals"
         static let desserts = "Desserts"
     }
+    
+    enum MealDetail {
+        static let ingredients = "Ingredients"
+        static let instructions = "Instructions"
+    }
+    
+    enum Alert {
+        static let failedData = "Failed to fetch data"
+    }
 }
 
 struct Layout {

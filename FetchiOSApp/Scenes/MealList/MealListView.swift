@@ -37,7 +37,7 @@ struct MealListView: View {
             .navigationTitle(Strings.Home.meal)
             .alert(isPresented: $viewModel.showError) {
                 Alert(
-                    title: Text("Failed to fetch meals"),
+                    title: Text(Strings.Alert.failedData),
                     message: Text(viewModel.errorMessage ?? ""),
                     dismissButton: .default(Text("OK"))
                 )
