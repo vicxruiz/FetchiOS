@@ -26,6 +26,7 @@
 		987FE51B2B02D3E400496114 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FE51A2B02D3E400496114 /* MealListView.swift */; };
 		987FE51E2B02E45F00496114 /* LoadingViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FE51D2B02E45F00496114 /* LoadingViewModifier.swift */; };
 		987FE5212B03078900496114 /* OnFirstAppearModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FE5202B03078900496114 /* OnFirstAppearModifier.swift */; };
+		987FE5242B03130C00496114 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 987FE5232B03130C00496114 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		987FE51A2B02D3E400496114 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
 		987FE51D2B02E45F00496114 /* LoadingViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModifier.swift; sourceTree = "<group>"; };
 		987FE5202B03078900496114 /* OnFirstAppearModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnFirstAppearModifier.swift; sourceTree = "<group>"; };
+		987FE5232B03130C00496114 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		987FE4A72B02D05C00496114 = {
 			isa = PBXGroup;
 			children = (
+				987FE5232B03130C00496114 /* screenshot.png */,
 				987FE4B22B02D05C00496114 /* FetchiOSApp */,
 				987FE4C32B02D05D00496114 /* FetchiOSAppTests */,
 				987FE4CD2B02D05D00496114 /* FetchiOSAppUITests */,
@@ -376,6 +379,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987FE5242B03130C00496114 /* screenshot.png in Resources */,
 				987FE4BB2B02D05D00496114 /* Preview Assets.xcassets in Resources */,
 				987FE4B82B02D05D00496114 /* Assets.xcassets in Resources */,
 			);
