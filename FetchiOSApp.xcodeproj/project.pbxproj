@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9857E6732B050A8F0097CD2D /* MealListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E6722B050A8F0097CD2D /* MealListViewModelTests.swift */; };
+		9857E6752B050ABE0097CD2D /* MockMealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9857E6742B050ABE0097CD2D /* MockMealRepository.swift */; };
 		987FE4B42B02D05C00496114 /* FetchiOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987FE4B32B02D05C00496114 /* FetchiOSAppApp.swift */; };
 		987FE4B82B02D05D00496114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987FE4B72B02D05D00496114 /* Assets.xcassets */; };
 		987FE4BB2B02D05D00496114 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 987FE4BA2B02D05D00496114 /* Preview Assets.xcassets */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9857E6722B050A8F0097CD2D /* MealListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModelTests.swift; sourceTree = "<group>"; };
+		9857E6742B050ABE0097CD2D /* MockMealRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockMealRepository.swift; sourceTree = "<group>"; };
 		987FE4B02B02D05C00496114 /* FetchiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		987FE4B32B02D05C00496114 /* FetchiOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchiOSAppApp.swift; sourceTree = "<group>"; };
 		987FE4B72B02D05D00496114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				987FE4C42B02D05D00496114 /* FetchiOSAppTests.swift */,
+				9857E6722B050A8F0097CD2D /* MealListViewModelTests.swift */,
+				9857E6742B050ABE0097CD2D /* MockMealRepository.swift */,
 			);
 			path = FetchiOSAppTests;
 			sourceTree = "<group>";
@@ -411,6 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				987FE4C52B02D05D00496114 /* FetchiOSAppTests.swift in Sources */,
+				9857E6752B050ABE0097CD2D /* MockMealRepository.swift in Sources */,
+				9857E6732B050A8F0097CD2D /* MealListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
