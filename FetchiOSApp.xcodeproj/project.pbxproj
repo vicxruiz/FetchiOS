@@ -194,17 +194,8 @@
 				987FE51C2B02E45400496114 /* Utils */,
 				987FE5032B02D2DE00496114 /* Constants */,
 				987FE5012B02D2DE00496114 /* Services */,
-				987FE4FF2B02D2DE00496114 /* Utilities */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		987FE4FF2B02D2DE00496114 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				987FE5002B02D2DE00496114 /* BasicError.swift */,
-			);
-			path = Utilities;
 			sourceTree = "<group>";
 		};
 		987FE5012B02D2DE00496114 /* Services */ = {
@@ -253,6 +244,7 @@
 		987FE51C2B02E45400496114 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				987FE5002B02D2DE00496114 /* BasicError.swift */,
 				987FE51D2B02E45F00496114 /* LoadingViewModifier.swift */,
 				987FE5202B03078900496114 /* OnFirstAppearModifier.swift */,
 			);
