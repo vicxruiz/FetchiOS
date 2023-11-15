@@ -46,7 +46,8 @@ final class MealDetailViewModel: ObservableObject {
      */
     private func fetchDetails(for meal: Meal) {
         self.isLoading = true
-        mealRepository.fetchMealDetails(for: meal.id) { result in
+        mealRepository.fetchMealDetails(for: meal.id) { [weak self] result in
+            guard let self = self else { return }
             switch result {
             case .failure(let error):
                 DispatchQueue.main.async {
